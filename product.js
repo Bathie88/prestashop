@@ -1196,11 +1196,11 @@ $(document).ready(function(){
 	}
 
 	$('.desc').click(function(){
-	  $('.customizer').toggle();
+	  $('.global_desc2').toggle();
 	});
 
 	$('.buy').click(function(){
-	  $('.global_desc2').toggle();
+	  $('.customizer').toggle();
 	});
 
 
