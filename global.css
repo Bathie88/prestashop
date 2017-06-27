@@ -9851,3 +9851,28 @@ section.page-product-box iframe {
 
 /*callag problème décallage Presse*/
 .btn-default {white-space: normal;}
+
+@media (min-width: 480px){
+  .desc, .buy {display: none;}
+}
+.desc , .buy{
+  background: #1b224b;
+  border: 2px solid #d00013;
+  color: white; 
+}
+
+.desc:hover, .buy:hover {
+    background: #1b224b;
+    border: 2px solid #d00013;
+    color: white;
+}
+
+.open .desc, .open .buy  {
+    color: #fff !important;
+    background-color: #1b224b !important;
+    border-color: #d00013 !important;
+}
+
+.desc .caret, .buy .caret {
+    border-top-color: white;
+}
