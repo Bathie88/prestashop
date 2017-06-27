@@ -1187,6 +1187,21 @@ $(document).ready(function(){
 		$('.global_desc .top').css('margin-bottom' , '350px');
 	}
 	
+	
+	var largeur_fenetre = $(window).width();
+
+	if (largeur_fenetre <= 480) {
+		$('.customizer').hide();
+		$('.global_desc2').hide();
+	}
+
+	$('.desc').click(function(){
+	  $('.customizer').toggle();
+	});
+
+	$('.buy').click(function(){
+	  $('.global_desc2').toggle();
+	});
 
 
 });
