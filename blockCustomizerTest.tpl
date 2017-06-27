@@ -1,6 +1,6 @@
 <p>
-				<button data-toggle="dropdown" class="btn btn-default dropdown-toggle" type="button">{l s="DESCRIPTION DÉTAILLÉE DU PRODUIT OU SERVICE"} <span class="caret"></span></button>
-			</p>
+	<button data-toggle="dropdown" class="btn btn-default dropdown-toggle" type="button">{l s="DESCRIPTION DÉTAILLÉE DU PRODUIT OU SERVICE"} <span class="caret"></span></button>
+</p>
 
 <div class="global_desc2">
         
