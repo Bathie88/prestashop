@@ -9876,3 +9876,8 @@ section.page-product-box iframe {
 .desc .caret, .buy .caret {
     border-top-color: white;
 }
+
+/*decallage à gauche bloc description*/
+.global_desc2 div:first-child {
+    padding: 0;
+}
