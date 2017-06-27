@@ -1,3 +1,7 @@
+<p>
+				<button data-toggle="dropdown" class="btn btn-default dropdown-toggle" type="button">{l s="DESCRIPTION DÉTAILLÉE DU PRODUIT OU SERVICE"} <span class="caret"></span></button>
+			</p>
+
 <div class="global_desc2">
         
         <div class="col-xs-12 col-sm-7">
@@ -5,9 +9,7 @@
 		{if isset($product) && $product->description}
 			<!-- More info -->
 			<section class="page-product-box">
-			<p>
-				<button data-toggle="dropdown" class="btn btn-default dropdown-toggle" type="button">{l s="DESCRIPTION DÉTAILLÉE DU PRODUIT OU SERVICE"} <span class="caret"></span></button>
-			</p>
+			
 
 				<h3 class="page-product-heading">{l s='More info'}</h3>
 				<!-- full description -->
