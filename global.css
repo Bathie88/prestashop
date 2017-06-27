@@ -9881,3 +9881,8 @@ section.page-product-box iframe {
 .global_desc2 div:first-child {
     padding: 0;
 }
+
+/*problème décallage liste blog afficher dans "nos blogs"*/
+#smartblogcat .sdsarticleCat {
+    max-height: 570px;
+}
