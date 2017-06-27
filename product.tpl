@@ -485,6 +485,7 @@
 
 {if isset($product) && $product->customizable}
 			<!--Customization -->
+			<button data-toggle="dropdown" class="btn btn-default dropdown-toggle" type="button">{l s="Personnalisation"} <span class="caret"></span></button>
 			<section class="page-product-box customizer">
 				<h3 class="page-product-heading">{l s='Product customization'}</h3>
 				<!-- Customizable products -->
