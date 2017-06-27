@@ -1177,7 +1177,7 @@ $(document).ready(function(){
 	var nb_paragraph = $(".global_desc .rte p").length;
 	var hauteur_desc = $(".global_desc .rte").height();
 
-	alert(hauteur_desc);
+	//alert(hauteur_desc);
 	if(hauteur_desc < 244) {
 		$('.global_desc .top').css('margin-bottom' , '150px');
 	}
@@ -1188,11 +1188,6 @@ $(document).ready(function(){
 	}
 	
 
-	/*$('.global_desc .rte p').each(function() {
-    var $this = $(this);
-    if($this.html().replace(/\s|&nbsp;/g, '').length == 0)
-        $this.remove();
-	});*/
 
 });
 
