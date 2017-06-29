@@ -1202,7 +1202,21 @@ $(document).ready(function(){
 	$('.buy').click(function(){
 	  $('.customizer').toggle();
 	});
+	
+	if (largeur_fenetre <= 480) {
+		var link_image = $('#view_full_size img').attr('src').replace("large", "art");
+		//alert(link_image);
+		$('#view_full_size img').attr('src', link_image).parent().attr('href', link_image);
 
+		$('#thumbs_list ul li img').click(function(){
+	  		var link_image2 = $(this).attr('src').replace("cart", "art");
+
+	  		var test = $('#view_full_size img').attr('src');
+	  		  		
+	  		$('#view_full_size img').attr('src', link_image2);
+	  		
+		});
+	}
 
 });
 
