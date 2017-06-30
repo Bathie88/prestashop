@@ -9894,3 +9894,48 @@ section.page-product-box iframe {
   .zoomPad, #views_block, .resetimg {display: none;}
 
 }
+
+#adtm_menu_inner {
+    background: #194a8f !important;
+}
+.header_user_info a, .shopping_cart > a:first-child,
+.favorite_header a, #contact-link a {
+    color: #194a8f !important;
+}
+.product_attributes #quantity_wanted_p .btn.button-minus span, 
+.product_attributes #quantity_wanted_p .btn.button-plus span {
+  background: #194a8f !important;
+  
+}
+.product_attributes #quantity_wanted_p .btn.button-minus, 
+.product_attributes #quantity_wanted_p .btn.button-plus {
+        border: 1px solid #194a8f !important;
+}
+
+/*callage page "commande"*/
+@media (min-width: 480px) {
+.rte h3.bouton .gauche{
+    float: left;
+    width: 50%;
+    border: 2px solid #194a8f;
+    text-align: center;
+  }
+  .rte h3.bouton .droite{
+    float: right;
+    width: 49%;
+    border: 2px solid #194a8f;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px){
+    .rte div.button span {
+      border: 2px solid #194a8f;
+      font-size: 8px;
+      margin-left: 0px;
+      width: 100%;
+    }
+    .rte h3.bouton .gauche {padding: 10px}
+
+}
+
