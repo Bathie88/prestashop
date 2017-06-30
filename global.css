@@ -9886,3 +9886,11 @@ section.page-product-box iframe {
 #smartblogcat .sdsarticleCat {
     max-height: 570px;
 }
+
+@media (min-width: 480px){
+  #view_full_size #products {display: none;}
+}
+@media (max-width: 480px){
+  .zoomPad, #views_block, .resetimg {display: none;}
+
+}
