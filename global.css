@@ -9917,20 +9917,26 @@ section.page-product-box iframe {
 .rte h3.bouton .gauche{
     float: left;
     width: 50%;
-    border: 2px solid #194a8f;
+    background:  #194a8f;
+    border: 2px solid #d00013;
+    color: #fff;
     text-align: center;
   }
   .rte h3.bouton .droite{
     float: right;
     width: 49%;
-    border: 2px solid #194a8f;
+    background:  #194a8f;
+    border: 2px solid #d00013;
+    color: #fff;
     text-align: center;
   }
 }
 
 @media (max-width: 480px){
     .rte div.button span {
-      border: 2px solid #194a8f;
+      background:  #194a8f;
+      border: 2px solid #d00013;
+      color: #fff;
       font-size: 8px;
       margin-left: 0px;
       width: 100%;
@@ -9938,4 +9944,3 @@ section.page-product-box iframe {
     .rte h3.bouton .gauche {padding: 10px}
 
 }
-
