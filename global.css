@@ -9944,3 +9944,22 @@ section.page-product-box iframe {
     .rte h3.bouton .gauche {padding: 10px}
 
 }
+
+/*callage bouton slide sur mobile/ipad*/
+@media(max-width: 1024px) {
+  .homeslider-description .bouton .droite {width: 50%}
+  .homeslider-description .bouton a input[type="button"] {white-space: normal;}  
+  /*aligné menu sur toute la largeur*/
+  #adtm_menu{padding-right: 0;padding-left: 0}
+}
+@media (max-width: 480px) {
+    #homeslider h3.bouton {font-size: 12px}
+    #homepage-slider .homeslider-description {top: -100px;}
+}
+@media (max-width: 990px) and (min-width: 768px) {
+    #htmlcontent_home ul li img {width: 100%;}
+}
+/*centrage menu chinois*/
+@media (min-width: 768px) {
+  .lang_zh #adtm_menu ul#menu li.li-niveau1 {width: 16%}
+}
